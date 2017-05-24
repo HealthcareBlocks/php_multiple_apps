@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM php:7.1-apache
 
 # enable Apache virtual hosts; see virtual-hosts.conf
 COPY virtual-hosts.conf /etc/apache2/conf-available/virtual-hosts.conf
